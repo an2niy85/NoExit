@@ -10,6 +10,14 @@ namespace NoExit
     {
         static void Main(string[] args)
         {
+            string userInput = "";
+            string conditionsExiting = "exit";
+
+            while (userInput != conditionsExiting)
+            {
+                Console.WriteLine("Введите слово:");
+                userInput = Console.ReadLine();
+            }
         }
     }
 }

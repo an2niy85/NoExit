@@ -11,11 +11,12 @@ namespace NoExit
         static void Main(string[] args)
         {
             string userInput = "";
-            string conditionsExiting = "exit";
+            string conditionsExiting = "Выход";
+
+            Console.WriteLine("Введите многострочный текст (Переход на новую строку - \"Enter\"), для выхода введите \"Выход\":");
 
             while (userInput != conditionsExiting)
             {
-                Console.WriteLine("Введите слово:");
                 userInput = Console.ReadLine();
             }
         }
